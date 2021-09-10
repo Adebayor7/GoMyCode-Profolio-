@@ -4,46 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="./styles.css">
+    
 </head>
 <body>
     <header>
 
         <!-- Nav Section -->
-        
-        <nav class="nav">
-           <div class="nav items">
-               <img src= "./software.eng.jpg" alt="Engineer">
-                   <a href="#Home"><i>Home</i></a>
-                   <a href="#Work"><i>Work</i></a>
-                   <a href="#About"><i>About</i></a>
-                   <a href="#Resume"><i>Resume</i></a>
-                   <a href="#Contact"><i>Contact</i></a>
-           </div>
-        </nav>
-        <br>
+          <nav class="nav-links">
+               <div class="nav-items">
+                  <a id="Insp" href="#Inspiration"><i>Inspiration</i></a><br>
+                  <a id="learn" href="#Learn-Design"><i>Learn Design</i></a><br>
+                  <a id="hire" href="#Hire-Designers"><i>Hire Designers</i></a><br>
+                  <a id="pro" href="#Go-Pro"><i>Go Pro</i></a><br>
+                  <a id="work" href="#Find-Work"><i>Find Work</i></a><br>
+                  </b>
+               </div>
+              </nav>
+              <form action="login.php" method="POST">
+                <div class="login-php">
+                <table>
+                  <tr>
+                    <td>
+                      Username:
+                    </td>
+                    <td>
+                      <input type="text" name="user">
+                    </td>
+                  </tr>
+                  
+                  <tr>
+                    <td>
+                      Password:
+                    </td>
+                    <td>
+                      <input type="password" name="user_pass">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <input id="login_php" type="submit" name="submit" value="Login">
+                    </td>
+
+                    <td>
+                      Not yet a Member? <a href="#">Register</a>
+                    </td>
+                  </tr>
+                </table>
+                </div>
+              </form>
+            
+        <h1 class="Text">Welcome Home!</h1>
+
 
        <!-- End Of Nav Section -->
 
        <!-- About Section -->
 
        <p>
-        I am Adebayo Idris, born and raised in Lagos State Nigeria. A Full-stack developer who like to code and learn new thing on and off the internet, there's is no better joy in wanting to learn and unlearn new and possible skills everyday.
-        Recently began my journey with GOMyCode Nigeria to become a professional web developer, i enjoy to code and spend time on the computer studying and learing new ways of programming to become a better developer. 
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure in ducimus,
+        tenetur facere repellendus ipsa beatae minus est laudantium nobis tempora
+        suscipit sunt tempore reprehenderit nulla necessitatibus! Eius sed
+        provident iusto dicta corrupti itaque, ducimus quo illo cupiditate,
+        quaerat blanditiis, quod accusamus doloremque <br>
+        Neque unde nostrum dignissimos ad quam ratione.
        </p>
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/zcTFG_F0FRs" 
-       title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-       allowfullscreen></iframe>
+
        <!-- Table Section -->
     <section>
-      <fieldset>
-        <div class="container">
+      <fieldset id="Sigin In">
+         <div class="container">
               <table width="100%">
-                <form action="My Form">
-                    <div class="form-group">
-                  <label for="fname"> First Name :</label><br>
-                  <input type="text" id="fname" name="fname"><br>
-                    </div>
+                <form id="payment" action="#"> 
+                    <label for="fname"> First Name :</label><br>
+                       <input type="text" id="fname" name="fname"><br>
                     <div class="form-group">
                   <label for="lname">Last Name :</label><br>
                   <input type="text" id="lname" name="lname"><br>
@@ -57,38 +93,65 @@
                   <input type="email" placeholder="Email@example.com" id="email" name="email"><br>
                     </div>
                     <div class="form-group">
-                  <label for="sex">Sex :</label><br>
+                  <label for="sex">Sex :</label>
                   <input type="radio" name="S"/>M<input type="radio" name="S"/>F<br>
                     </div>
-                   <div class="from-group">
-                  <label for="date">Date :</label> <br>
+                  <label for="date">DOB:</label><br>
                   <input type="date" id="Date"><br>
-                    </div>
-                   <div class="form-group">
-                  <input type="submit" value="Submit"></input><br>
-                   </div>
+                      <button class="submit-button"> 
+                       <a class="sbumit" href="#">Submit!</a></button>
                 </form>
               </table>
-        </div>
+         </div>
       </fieldset>
     </section>
 
+                       <iframe id="iframe" width="560" height="315" src="https://www.youtube.com/embed/zcTFG_F0FRs" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                         allowfullscreen></iframe>
+                   
       <!-- End Of Table Section -->
+
+      <aside>
+        <h3><strong>Membership</strong></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure in ducimus,
+          tenetur facere repellendus ipsa beatae minus est laudantium nobis tempora
+          suscipit sunt tempore reprehenderit nulla necessitatibus! Eius sed
+          provident iusto dicta corrupti itaque, ducimus quo illo cupiditate,
+          quaerat blanditiis, quod accusamus doloremque <br>
+          Neque unde nostrum dignissimos ad quam ratione.</p>
+      </aside>
+
+      <!-- Other Image Section -->
+
+      <div class="image-link">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure in ducimus,
+          tenetur facere repellendus ipsa beatae minus est laudantium nobis tempora
+          suscipit sunt tempore reprehenderit nulla necessitatibus! Eius sed
+          provident iusto dicta corrupti itaque, ducimus quo illo cupiditate,
+          quaerat blanditiis, quod accusamus doloremque <br>
+          Neque unde nostrum dignissimos ad quam ratione.</p>
+          
+        <img src="./singapore_style.jpg" alt="Singapore" width="500px" height="300px">
+        <img src="./Zuerich.jpg" alt="Image" width="500px" height="300px">
+        <img src="./skyline_j.jpg" alt="Dubia" width="450px" height="300px">
+      </div>
+
+      <!-- End Of Other Image Section -->
 
       <!-- Footer Section -->
     <footer>
       <div class="footer-links">
-         <a href="#">Home</a><br>
-         <a href="#">Terms</a><br>
-         <a href="#">Privacy</a><br>
-         <a href="#">Contact Us</a><br>
+         <a class="home" href="#">Home</a><br>
+         <a class="terms" href="#">Terms</a><br>
+         <a class="privacy" href="#">Privacy</a><br>
+         <a class="contact-us" href="#">Contact Us</a><br>
        </div>
     </footer>
-    <a href="https://mail.google.com/">Gmail</a> <br>
-   
-    <!-- End Of Footer Section -->
 
-   <a name="#"></a> <a href="#top">Back to Top</a>
+     <!-- End Of Footer Section -->
+
+   <a class="top" name="#" href="#top">Back to Top</a>
 
 
 </body>

@@ -1,0 +1,117 @@
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  background-color: red;
+}
+body {
+  background-image:url("./benny-rotlevy-I2EpqyPym78-unsplash.jpg");
+  background-size: 100em;
+}
+.nav-items a:hover {
+  color: #fff;
+}
+#iframe-2 {
+  width: 100rem;
+  height: 30rem;
+}
+.login-php {
+  color: #fff;
+  font-weight: 600;
+  background-color: aqua;
+  inline-size: 20rem;
+  justify-content: right;
+  width: 100%;
+  margin-left: 1220px;
+}
+#login_php {
+  cursor: pointer;
+}
+
+#iframe {
+  width: 100em;
+  height: 30em;
+}
+p {
+  color: brown;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5em;
+  background-color: cyan;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 20px;
+}
+.Text {
+  background-color: tomato;
+  text-align: center;
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 20px;
+  border-width: 10px;
+  border-style: outset;
+  border-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  text-align: center;
+  color:red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0.5px;
+  padding: 10px;
+  background-image: url();
+  background-position: 100em;
+  font-weight: bold;
+}
+.image {
+  width: 150px;
+  padding-top: 0em;
+  justify-content: left;
+  padding: 0rem;
+}
+.footer-links {
+  font-size: 1.5rem;
+  color: #fff;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 1.5em;
+}
+.submit-button {
+  background-color: aliceblue;
+  font-weight: 800%;
+  transition: background-color 2s;
+}
+.submit-button:hover {
+  background-color: red;
+}
+.footer-links a:hover{
+  color: #fff;
+  background-color: red;
+}
+.image-link {
+  justify-content: space-around;
+  position: relative;
+  background-color: cyan;
+  padding: 0.5rem;
+}
+h3 {
+  background-color: tomato;
+  text-align: center;
+  color: darkblue;
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 20px;
+  border-width: 10px;
+  border-style: outset;
+  border-color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+.top:hover {
+  color:#fff;
+  font-size: medium;
+  padding: 1.5em;
+  background-color: red;
+}
